@@ -9,12 +9,876 @@
         "name": "Ring of Safety",
         "desc": "+[3/3/4/4/5/5]% Damage Mitigation",
         "icon": "iconItemROPSafety.png",
-        "rarity": "Rare"
+        "rarity": "Common"
     },
     {
         "name": "Ring of Zed",
-        "desc": "+[10/11/12/13/14/15]% Damage",
+        "desc": "+[10/11/12/13/14/15]% Entity Damage",
         "icon": "iconItemROPZed.png",
-        "rarity": "Epic"
+        "rarity": "Common"
+    },
+    {
+        "name": "Ring of Roads",
+        "desc": "+[5/6/7/8/9/10]% Movement Speed",
+        "icon": "iconItemROPRoads.png",
+        "rarity": "Common"
+    },
+    {
+        "name": "Ring of Marksman",
+        "desc": "+[50/60/70/80/90/100]% Archery Headshot Damage",
+        "icon": "iconItemROPMarksman.png",
+        "rarity": "Common"
+    },
+    {
+        "name": "Ring of Storage",
+        "desc": "+[2/3/4/5/6/7] Carry Capacity",
+        "icon": "iconItemROPStorage.png",
+        "rarity": "Common"
+    },
+    {
+        "name": "Ring of Archery",
+        "desc": "Gain 1 Health on Archery Hit.",
+        "icon": "iconItemROPArchery.png",
+        "rarity": "Common"
+    },
+    {
+        "name": "Ring of Archery",
+        "desc": "+1 Additional Arrow",
+        "icon": "iconItemROPArchery.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Archery",
+        "desc": "+[10/20/30/40/50/60]% Archery Damage",
+        "icon": "iconItemROPArchery.png",
+        "rarity": "Common"
+    },
+    {
+        "name": "Ring of Archery",
+        "desc": "+[10/20/30/40/50/60]% Archery Reload Speed",
+        "icon": "iconItemROPArchery.png",
+        "rarity": "Common"
+    },
+    {
+        "name": "Ring of Archery",
+        "desc": "+[30/40/50/60/70/80]% Arrow Stick Chance",
+        "icon": "iconItemROPArchery.png",
+        "rarity": "Common"
+    },
+    {
+        "name": "Ring of Combat Mastery",
+        "desc": "+[15/20/25/30/35/40]% Entity Damage with [Weapon Type]",
+        "icon": "iconItemROPCombatMasteryAxes.png",
+        "rarity": "Common"
+    },
+    {
+        "name": "Ring of Combat Mastery",
+        "desc": "+[3/6/9/12/15/18]% Attack Speed with [Weapon Type]",
+        "icon": "iconItemROPCombatMasteryAxes.png",
+        "rarity": "Common"
+    },
+    {
+        "name": "Ring of Force",
+        "desc": "Knockback enemy on [Melee/Archery] hit.",
+        "icon": "iconItemROPForce.png",
+        "rarity": "Common"
+    },
+    {
+        "name": "Ring of Collecting",
+        "desc": "+[2/4/6/8/10/12] Loot Stage",
+        "icon": "iconItemROPCollecting.png",
+        "rarity": "Common"
+    },
+    {
+        "name": "Ring of Scavenger",
+        "desc": "-[15/15/15/20/25/30]% Scavenging Time",
+        "icon": "iconItemROPScavenger.png",
+        "rarity": "Common"
+    },
+    {
+        "name": "Ring of Thievery",
+        "desc": "-[10/10/10/15/20/25]% Lock Picking Speed",
+        "icon": "iconItemROPThievery.png",
+        "rarity": "Common"
+    },
+    {
+        "name": "Ring of Detonation",
+        "desc": "+[10/15/20/25/30/35]% Explosive Damage",
+        "icon": "iconItemROPDetonation.png",
+        "rarity": "Common"
+    },
+    {
+        "name": "Ring of Harvest",
+        "desc": "+[15/18/21/24/27/30]% Harvest Quantity",
+        "icon": "iconItemROPHarvest.png",
+        "rarity": "Common"
+    },
+    {
+        "name": "Ring of Salvage",
+        "desc": "+[15/18/21/24/27/30]% Salvage Quantity",
+        "icon": "iconItemROPSalvage.png",
+        "rarity": "Common"
+    },
+    {
+        "name": "Ring of Mining",
+        "desc": "+[15/18/21/24/27/30]% Ore Quantity",
+        "icon": "iconItemROPMining.png",
+        "rarity": "Common"
+    },
+    {
+        "name": "Ring of Movement",
+        "desc": "+[8/9/10/11/12/13]% Movement Speed",
+        "icon": "iconItemROPMovement.png",
+        "rarity": "Common"
+    },
+    {
+        "name": "Ring of Striking",
+        "desc": "+[8/9/10/11/12/13]% Melee Attack Speed",
+        "icon": "iconItemROPStriking.png",
+        "rarity": "Common"
+    },
+    {
+        "name": "Ring of Health",
+        "desc": "+[25/35/45/55/65/75] Max Health",
+        "icon": "iconItemROPHealth.png",
+        "rarity": "Common"
+    },
+    {
+        "name": "Ring of Stamina",
+        "desc": "+[20/30/40/50/60/70] Max Stamina",
+        "icon": "iconItemROPStamina.png",
+        "rarity": "Common"
+    },
+    {
+        "name": "Ring of Soothing",
+        "desc": "+[10/10/10/15/20/25]% Stamina Regeneration",
+        "icon": "iconItemROPSoothing.png",
+        "rarity": "Common"
+    },
+    {
+        "name": "Ring of Sneaking",
+        "desc": "+[25/30/35/40/45/50]% Sneak Damage",
+        "icon": "iconItemROPSneaking.png",
+        "rarity": "Common"
+    },
+    {
+        "name": "Ring of Protection",
+        "desc": "+[3/3/3/4/4/5]% Damage Mitigation",
+        "icon": "iconItemROPProtection.png",
+        "rarity": "Common"
+    },
+    {
+        "name": "Ring of Learning",
+        "desc": "+[5/6/7/8/9/10]% Experience Gained",
+        "icon": "iconItemROPLearning.png",
+        "rarity": "Common"
+    },
+    {
+        "name": "Ring of Crushing",
+        "desc": "+[350/400/450/500/550/600]% Block Damage",
+        "icon": "iconItemROPCrushing.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Crafting",
+        "desc": "-[15/18/21/24/27/30]% Crafting Time",
+        "icon": "iconItemROPCrafting.png",
+        "rarity": "Common"
+    },
+    {
+        "name": "Ring of Acrobatics",
+        "desc": "+1 Jump Height.",
+        "icon": "iconItemROPAcrobatics.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Bartering",
+        "desc": "+[5/6/7/8/9/10]% Bartering",
+        "icon": "iconItemROPBartering.png",
+        "rarity": "Common"
+    },
+    {
+        "name": "Ring of Graverobber",
+        "desc": "+5 Loot Bonus.\n-1 Treasure Radius.",
+        "icon": "iconItemROPGraverobber.png",
+        "rarity": "Common"
+    },
+    {
+        "name": "Ring of Penetration",
+        "desc": "Ignore 5% of enemy's armor per The Penetrator perk point.",
+        "icon": "iconItemROPPenetration.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Labor",
+        "desc": "+5% Attack Speed with Tools per Living Off The Land perk point.",
+        "icon": "iconItemROPLabor.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Night Runner",
+        "desc": "+3% Movement Speed at night per Hidden Strike perk point.",
+        "icon": "iconItemROPNightRunner.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Night Scavenger",
+        "desc": "+3% Loot Stage at night per From The Shadows perk point.",
+        "icon": "iconItemROPNightScavenger.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Prowler",
+        "desc": "+10% Movement Speed while Crouched per From The Shadows perk point.",
+        "icon": "iconItemROPProwler.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Fortress",
+        "desc": "+1% Damage Mitigation per Heavy Armor perk point.",
+        "icon": "iconItemROPFortress.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Decapitator",
+        "desc": "+4% chance to Dismember per The Huntsman perk point.",
+        "icon": "iconItemROPDecapitator.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Brute",
+        "desc": "+15 Max Health per Pain Tolerance perk point.",
+        "icon": "iconItemROPBrute.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Footwork",
+        "desc": "+3% Movement Speed per Cardio perk point.",
+        "icon": "iconItemROPFootwork.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Exploring",
+        "desc": "+3% Movement Speed per Daring Adventure perk point.",
+        "icon": "iconItemROPExploring.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Infiltrator",
+        "desc": "+2% Lock Picking Speed per Infiltrator perk point.",
+        "icon": "iconItemROPInfiltrator.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Treasures",
+        "desc": "+3 Loot Stage per Treasure Hunter perk point.",
+        "icon": "iconItemROPTreasures.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Hawk Hunter",
+        "desc": "+4% Archery Damage, +4% Archery Attack Speed, and +1% Movement Speed per Deadeye perk point.",
+        "icon": "iconItemROPHawkHunter.png",
+        "rarity": "Rare"
+    },
+	    {
+        "name": "Ring of Splinter Rain",
+        "desc": "+[200/225/250/275/300/325]% Bow Draw Speed while Crouched.\n-[50/48/46/44/42/40]% Crouch Speed.",
+        "icon": "iconItemROPSplinterRain.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Heavy Weight",
+        "desc": "Two-handed melee weapons gain +[50/60/70/80/90/100]% Entity Damage\n+[30/34/38/42/46/50]% Block Damage\n-[15/20/25/30/35/40]% Attack Speed.",
+        "icon": "iconItemROPHeavyWeight.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Nightforged",
+        "desc": "At Night: +[15/18/21/24/27/30]% Entity Damage, +[5/8/11/14/17/20]% Attack Speed, +[5/6/7/8/9/10]% Movement Speed, +[10/14/18/22/26/30] Max Health, +[10/14/18/22/26/30] Max Stamina, +[5/7/9/11/13/15] Loot Stage.",
+        "icon": "iconItemROPNightforged.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Spear Dancing",
+        "desc": "+100% Spear Attack Speed.\n-50% Spear Entity Damage.",
+        "icon": "iconItemROPSpearDancing.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Blast Guard",
+        "desc": "[10/13/16/19/22/25]% Explosion Damage Reduction.",
+        "icon": "iconItemROPBlastGuard.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Zenith",
+        "desc": "+[5/6/7/8/9/10]% Experience Gain.\n+1 Strength, Agility, Fortitude, Perception and Intellect.",
+        "icon": "iconItemROPZenith.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Lethal Strikes",
+        "desc": "+10% Damage for every 10% Missing Health.",
+        "icon": "iconItemROPLethalStrikes.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Reach",
+        "desc": "+1 Melee Attack Range.",
+        "icon": "iconItemROPReach.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Shadow Master",
+        "desc": "Improves Sneaking, Crouch Speed, Sneak Damage and Experience gained from Sneak Kills.",
+        "icon": "iconItemROPShadowMaster.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Audiocation",
+        "desc": "+[150/160/170/180/190/200]% Noise Generated.",
+        "icon": "iconItemROPAudiocation.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Purification",
+        "desc": "Melee and Archery hits prevent zombie Radiation Regeneration.",
+        "icon": "iconItemROPPurification.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Juggernaut",
+        "desc": "Immune to Stun.",
+        "icon": "iconItemROPJuggernaut.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Shadowbloom",
+        "desc": "Harvest +1 additional crop at Night.",
+        "icon": "iconItemROPShadowbloom.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Proficiency",
+        "desc": "Perception higher than 7: +15% Attack Speed.\nStrength higher than 7: +35% Entity Damage.\nAgility higher than 7: +8% Movement Speed.\nFortitude higher than 7: +4% Damage Mitigation.\nIntellect higher than 7: +10% EXP gained.",
+        "icon": "iconItemROPProficiency.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Execution",
+        "desc": "Melee and Archery attacks have a chance to instantly execute enemies.",
+        "icon": "iconItemROPExecution.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Excavation",
+        "desc": "3% chance to one-shot Ore with non-motor tools.\n+1% chance per Living Off The Land perk level.",
+        "icon": "iconItemROPExcavation.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Timber",
+        "desc": "3% chance to one-shot Trees with non-motor tools.\n+1% chance per Living Off The Land perk level.",
+        "icon": "iconItemROPTimber.png",
+        "rarity": "Uncommon"
+    },
+	{
+        "name": "Ring of Night Runner",
+        "desc": "+3% Movement Speed at Night per Hidden Strike perk point.",
+        "icon": "iconItemROPNightRunner.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Night Scavenger",
+        "desc": "+3% Loot Stage at Night per From The Shadows perk point.",
+        "icon": "iconItemROPNightScavenger.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Prowler",
+        "desc": "+10% Crouch Movement Speed per From The Shadows perk point.",
+        "icon": "iconItemROPProwler.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Fortress",
+        "desc": "+1% Damage Mitigation per Heavy Armor perk point.",
+        "icon": "iconItemROPFortress.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Decapitator",
+        "desc": "+4% Dismember Chance per The Huntsman perk point.",
+        "icon": "iconItemROPDecapitator.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Brute",
+        "desc": "+15 Max Health per Pain Tolerance perk point.",
+        "icon": "iconItemROPBrute.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Footwork",
+        "desc": "+3% Movement Speed per Cardio perk point.",
+        "icon": "iconItemROPFootwork.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Exploring",
+        "desc": "+3% Movement Speed per Daring Adventurer perk point.",
+        "icon": "iconItemROPExploring.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Infiltrator",
+        "desc": "+2% Lock Picking Speed per Infiltrator perk point.",
+        "icon": "iconItemROPInfiltrator.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Treasures",
+        "desc": "+3 Loot Stage per Treasure Hunter perk point.",
+        "icon": "iconItemROPTreasures.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Hawk Hunter",
+        "desc": "+4% Archery Damage, +4% Archery Attack Speed, and +1% Movement Speed per Deadeye perk point.",
+        "icon": "iconItemROPHawkHunter.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Static",
+        "desc": "Melee and Archery have a 5% chance to Shock enemies on hit.\n+2% Chance per Lightning Hands perk point.",
+        "icon": "iconItemROPStatic.png",
+        "rarity": "Uncommon"
+    },
+	    {
+        "name": "Ring of Calculated Strike",
+        "desc": "Gain Calculated Strike if you haven't hit an enemy recently.\nCalculated Strike grants +50% Entity Damage.\n+10% Entity Damage per Calculated Attack perk point.",
+        "icon": "iconItemROPCalculatedStrike.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Siphon Strike",
+        "desc": "Activate on Crouch:\nYour next Power Attack will siphon 20 to 40 Stamina.\n  15 seconds Duration\n  15 seconds Cooldown",
+        "icon": "iconItemROPSiphonStrike.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Jolting",
+        "desc": "Movement Speed effects from Shock are inverted.\n+15% Attack Speed.",
+        "icon": "iconItemROPJolting.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Panic",
+        "desc": "Gain 5% Movement Speed for every 10% Health missing.",
+        "icon": "iconItemROPPanic.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Mutation",
+        "desc": "Every 1% Infection grants +1% Attack Speed, up to 25%.",
+        "icon": "iconItemROPMutation.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Vulnerability",
+        "desc": "Hiting an enemy applies them with Vulnerability for 6 seconds.\nVulnerability reduces Damage Mitigation by 10%.",
+        "icon": "iconItemROPVulnerability.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Stealth",
+        "desc": "Activates Full Stealth when you crouch, becoming completely hidden from enemies (Except players).\n  4 seconds Duration\n  12 seconds Cooldown",
+        "icon": "iconItemROPStealth.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Battle Damage",
+        "desc": "Killing an enemy grants +10% Entity Damage for 12 seconds. Stacks 4 times.",
+        "icon": "iconItemROPBattleDamage.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Battle Attack Speed",
+        "desc": "Killing an enemy grants +4% Attack Speed for 12 seconds. Stacks 4 times.",
+        "icon": "iconItemROPBattleAttackSpeed.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Battle Protection",
+        "desc": "Killing an enemy grants +1% Damage Mitigation for 12 seconds. Stacks 4 times.",
+        "icon": "iconItemROPBattleProtection.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Replenishment",
+        "desc": "Restores 5 Stamina and 1 Health every 10 seconds.",
+        "icon": "iconItemROPReplenishment.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Plunder",
+        "desc": "Killing an enemy has a 5% chance to loot their cash.",
+        "icon": "iconItemROPPlunder.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Bounty Hunting",
+        "desc": "Occasionally gain a Bounty. Bounty kills grant Dukes (Casino Coins).",
+        "icon": "iconItemROPBountyHunting.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Elementalist",
+        "desc": "While wielding a Melee or Archery weapon:\n  8% Chance to Shock on hit.\n  8% Chance to Ignite on hit.\n  8% Chance to Freeze on hit.\n  8% Chance to Quake on hit.",
+        "icon": "iconItemROPElementalist.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Quake",
+        "desc": "While wielding a Sledgehammer or Club:\n15% chance on hit to knockdown nearby enemies.",
+        "icon": "iconItemROPQuake.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Combat Mending",
+        "desc": "When using Medical Bandage or Medical Kit, gain bonuses for 8 seconds:\n  +20% Entity Damage\n  +15% Attack Speed\n  +10% Movement Speed",
+        "icon": "iconItemROPCombatMending.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Caustic Shot",
+        "desc": "Your Archery weapons gain Caustic Arrows.\nCaustic Arrows apply stacking Poison on hit.\nPoison stacks up to 10 times, and lasts 8 seconds.",
+        "icon": "iconItemROPCausticShot.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Blunthead Shot",
+        "desc": "Your Archery weapons gain Blunthead Arrows.\nBlunthead Arrows have a 15% chance to knockdown enemies on hit.",
+        "icon": "iconItemROPBluntheadShot.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Treasure Bounty",
+        "desc": "+5 Loot Stage on kill. Non-Stackable.\nLasts 12 Seconds.\nRefresh on Kill.",
+        "icon": "iconItemROPTreasureBounty.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Golden Grid",
+        "desc": "+1 Loot Stage on kill, up to 30.\nLasts 12 Seconds.\nRefresh on Kill.",
+        "icon": "iconItemROPGoldenGrid.png",
+        "rarity": "Uncommon"
+    }
+	    {
+        "name": "Ring of Wounding",
+        "desc": "Melee and Archery hits have a 20% chance to apply Open Wounds. Open Wounds deals moderate damage over time, is not stackable, and lasts for 8 seconds."",
+        "icon": "iconItemROPWounding.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Poison",
+        "desc": "Melee and Archery hits have a 35% chance to apply Poison. This Poison deals low damage over time, can stack up to 5, and lasts for 16 seconds.",
+        "icon": "iconItemROPPoison.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Jousting",
+        "desc": "+10% Attack Speed with Spears.\n+25% Entity Damage with Spears.\nSpear attacks grants high Movement Speed for 2 seconds.\nEffect has an 8 second cooldown.",
+        "icon": "iconItemROPJousting.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Barricade",
+        "desc": "When hit, +20% Damage Mitigation for 4 seconds. 20 seconds Cooldown.",
+        "icon": "iconItemROPBarricade.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Time Crunch",
+        "desc": "Activate on Crouch: +40% Attack Speed and +20% Movement Speed for 4 seconds. 20 seconds Cooldown.",
+        "icon": "iconItemROPTimeCrunch.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Fragile Fragment",
+        "desc": "When hit, +8% Damage Mitigation for 8 seconds. 30 seconds Cooldown.",
+        "icon": "iconItemROPFragileFragment.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Surging Life",
+        "desc": "When below 25% Health, immediately heals 25 Health. 30 seconds Cooldown.",
+        "icon": "iconItemROPSurgingLife.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Surging Stamina",
+        "desc": "When below 25% Stamina, immediately recovers 25 Stamina. 30 seconds Cooldown.",
+        "icon": "iconItemROPSurgingStamina.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Slaughter",
+        "desc": "Melee and Archery hits grant a Slaughter Charge. \n+40% Attack Speed per Slaughter Charge.\nSlaughter Charges resets after the 2nd charge.",
+        "icon": "iconItemROPSlaughter.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Self Damnation",
+        "desc": "For each Debuff (up to 10) on you, gain: +6% Entity Damage, Attack Speed, and Movement Speed.",
+        "icon": "iconItemROPSelfDamnation.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Trauma",
+        "desc": "Melee and Archery apply Trauma on hit: \n-5% Damage Mitigation \n-15% Movement Speed \n-10% Attack Speed \n-20% Entity Damage",
+        "icon": "iconItemROPTrauma.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Shadow Stitch",
+        "desc": "When using First Aid at Night, gain an additional healing effect for 8 seconds.\nBandage: 1 Health per second.\nFirst Aid Bandage: 2 Health per second.\nFirst Aid Kit: 3 Health per second.",
+        "icon": "iconItemROPShadowStitch.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Grand Templar",
+        "desc": "While wielding a Club or Sledgehammer, you and allies gain:\n+40 Health and Stamina\n+25% Entity Damage\n+10% Attack and Movement Speed",
+        "icon": "iconItemROPGrandTemplar.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Templar's Fortune",
+        "desc": "While wielding a Club or Sledgehammer, you and allies gain:\n+10% Loot Stage",
+        "icon": "iconItemROPTemplarsFortune.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Templar's Protection",
+        "desc": "While wielding a Club or Sledgehammer, you and allies gain:\n+5% Damage Mitigation",
+        "icon": "iconItemROPTemplarsProtection.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Templar's Wisdom",
+        "desc": "While wielding a Club or Sledgehammer, you and allies gain:\n+10% EXP Gained",
+        "icon": "iconItemROPTemplarsWisdom.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Templar's Virtue",
+        "desc": "While wielding a Club or Sledgehammer, you and allies gain:\n+1 All Attributes",
+        "icon": "iconItemROPTemplarsVirtue.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Cursing Anguish",
+        "desc": "Melee and Archery hits apply Anguish Curse for 6 seconds.\nAnguish Curse consumes 2 Stamina per second.",
+        "icon": "iconItemROPCursingAnguish.png",
+        "rarity": "Rare"
+    }
+	    {
+        "name": "Ring of Cursing Agony",
+        "desc": "Melee and Archery hits apply Agony Curse for 6 seconds.\nAgony Curse deals damage when target is hit (Half for PVP).",
+        "icon": "iconItemROPCursingAgony.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Cursing Binding",
+        "desc": "Melee and Archery hits apply Binding Curse for 6 seconds.\nBinding Curse applies -30% Movement Speed and Attack Speed.",
+        "icon": "iconItemROPCursingBinding.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Cursing Fractured",
+        "desc": "Melee and Archery hits apply Fractured Curse for 6 seconds.\nFractured Curse applies -15% Damage Mitigation.",
+        "icon": "iconItemROPCursingFractured.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Cursing Panic",
+        "desc": "Melee and Archery hits apply Panic Curse for 6 seconds.\nPanic Curse applies -30% Entity Damage.",
+        "icon": "iconItemROPCursingPanic.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Cursing Blood",
+        "desc": "Melee and Archery hits apply Blood Curse for 6 seconds.\nBlood Curse applies -25% Max Health.",
+        "icon": "iconItemROPCursingBlood.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Cursing Flame",
+        "desc": "Melee and Archery hits apply Flame Curse for 6 seconds.\nFlame Curse deals moderate damage over its duration.",
+        "icon": "iconItemROPCursingFlame.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Twinshot",
+        "desc": "+1 Arrows drawn with Bows.\n-[40,38,36,34,32,30]% Entity Damage with Bows. +25% Spread.",
+        "icon": "iconItemROPTwinshot.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Barrage",
+        "desc": "+1 Arrows drawn with Bows.\n-[50,46,42,38,34,30]% Bow Attack Speed. +25% Spread.",
+        "icon": "iconItemROPBarrage.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Hoarding",
+        "desc": "-50% Loot Speed.\n+[20,21,22,23,24,25] Loot Stage.",
+        "icon": "iconItemROPHoarding.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Unstable Fury",
+        "desc": "-60 Max Health.\n+[25,27,29,31,33,35]% Entity Damage.",
+        "icon": "iconItemROPUnstableFury.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Unstable Wrath",
+        "desc": "-60 Max Stamina.\n+[25,27,29,31,33,35]% Entity Damage.",
+        "icon": "iconItemROPUnstableWrath.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Lightfoot",
+        "desc": "-15 Carry Capacity.\n+[20,21,22,23,24,25]% Movement Speed.",
+        "icon": "iconItemROPLightfoot.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Training",
+        "desc": "-40% Entity Damage.\n+[10,11,12,13,14,15]% EXP.",
+        "icon": "iconItemROPTraining.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Strength",
+        "desc": "Every Strength attribute point grants +5 Maximum Health.",
+        "icon": "iconItemROPStrength.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Strength",
+        "desc": "Every Strength attribute point grants +3% Melee Damage.",
+        "icon": "iconItemROPStrength.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Strength",
+        "desc": "Every Strength attribute point grants +3% Loot Speed.",
+        "icon": "iconItemROPStrength.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Agility",
+        "desc": "Every Agility attribute point grants +2% Melee Attack Speed.",
+        "icon": "iconItemROPAgility.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Agility",
+        "desc": "Every Agility attribute point grants +2% Archery Attack Speed.",
+        "icon": "iconItemROPAgility.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Agility",
+        "desc": "Every Agility attribute point grants +2% Movement Speed.",
+        "icon": "iconItemROPAgility.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Agility",
+        "desc": "Every Agility attribute point grants +2% Archery Damage.",
+        "icon": "iconItemROPAgility.png",
+        "rarity": "Uncommon"
+    }
+	    {
+        "name": "Ring of Intellect",
+        "desc": "Every Intellect attribute point grants +5% Robotics Damage.",
+        "icon": "iconItemROPIntellect.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Intellect",
+        "desc": "Every Intellect attribute point grants +2 Loot Stage.",
+        "icon": "iconItemROPIntellect.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Intellect",
+        "desc": "Every Intellect attribute point grants +5 Maximum Stamina.",
+        "icon": "iconItemROPIntellect.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Fortitude",
+        "desc": "Every Fortitude attribute point grants +1% Damage Mitigation.",
+        "icon": "iconItemROPFortitude.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Fortitude",
+        "desc": "Every Fortitude attribute point grants +5% Harvest Quantity.",
+        "icon": "iconItemROPFortitude.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Fortitude",
+        "desc": "Every Fortitude attribute point grants +3% Buff Duration.",
+        "icon": "iconItemROPFortitude.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Combat Expertise",
+        "desc": "+[15/20/25/30/35/40]% Entity Damage with [Weapon Type]\n+[3/6/9/12/15/18]% Attack Speed with [Weapon Type]",
+        "icon": "iconItemROPCombatExpertise.png",
+        "rarity": "Uncommon"
+    },
+    {
+        "name": "Ring of Feather Fate",
+        "desc": "+[5,6,7,8,9,10]% Movement Speed.\nGain +2% Movement Speed every 10 Player Levels upto Player Level 100.",
+        "icon": "iconItemROPFeatherFate.png",
+        "rarity": "Legendary"
+    },
+	{
+        "name": "Ring of Demon Bell",
+        "desc": "Occasionally the bell rings.",
+        "icon": "iconItemROPDemonBell.png",
+        "rarity": "Legendary"
+    },
+    {
+        "name": "Ring of Death Sense",
+        "desc": "You are tracking undead.",
+        "icon": "iconItemROPDeathSense.png",
+        "rarity": "Legendary"
+    },
+	{
+        "name": "Ring of Thief's Patience",
+        "desc": "Lockpicks cannot break.\n-[60,57,54,51,48,45]% Lock Picking speed.",
+        "icon": "iconItemROPThiefsPatience.png",
+        "rarity": "Legendary"
+    },
+	{
+        "name": "Ring of the Duke",
+        "desc": "+1 Additional Quest Reward.",
+        "icon": "iconItemROPTheDuke.png",
+        "rarity": "Legendary"
+    },
+    {
+        "name": "Ring of Mastery",
+        "desc": "Gain bonuses based on your Attributes:\n  +2% Attack Speed per Perception\n  +4% Entity Damage per Strength\n  +2% Movement Speed per Agility\n  +0.5% Damage Mitigation per Fortitude\n  +1% Experience gained per Intellect.",
+        "icon": "iconItemROPMastery.png",
+        "rarity": "Legendary"
     }
 ]
