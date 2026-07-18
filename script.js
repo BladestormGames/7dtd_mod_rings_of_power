@@ -44,6 +44,28 @@ function displayRings(rings)
     });
 }
 
+// Filter Rings
+function filterRings()
+{
+    const search = searchBox.value.toLowerCase();
+
+    const filtered = allRings.filter(ring =>
+    {
+        const matchesSearch =
+            ring.name.toLowerCase().includes(search) ||
+            ring.desc.toLowerCase().includes(search) ||
+            ring.rarity.toLowerCase().includes(search);
+
+        const matchesRarity =
+            selectedRarity === "All" ||
+            ring.rarity === selectedRarity;
+
+        return matchesSearch && matchesRarity;
+    });
+
+    displayRings(filtered);
+}
+
 // Load JSON
 fetch("data/rings.json")
     .then(response => response.json())
