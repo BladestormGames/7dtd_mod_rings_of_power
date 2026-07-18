@@ -1,6 +1,6 @@
 const ringList = document.getElementById("ring-list");
-const searchBox = document.getElementById("search");
 const ringCount = document.getElementById("ring-count");
+const searchBox = document.getElementById("search");
 
 let allRings = [];
 
@@ -8,6 +8,15 @@ let allRings = [];
 function displayRings(rings)
 {
     ringList.innerHTML = "";
+
+    if (rings.length === allRings.length)
+    {
+        ringCount.textContent = `${allRings.length} Unique Rings`;
+    }
+    else
+    {
+        ringCount.textContent = `Showing ${rings.length} of ${allRings.length} Rings`;
+    }
 
     rings.forEach(ring =>
     {
@@ -19,13 +28,13 @@ function displayRings(rings)
                 </div>
 
                 <div class="ring-info">
-					<div class="ring-name">${ring.name}</div>
-					<div class="ring-desc">${ring.desc}</div>
+                    <div class="ring-name">${ring.name}</div>
+                    <div class="ring-desc">${ring.desc}</div>
 
-					<div class="ring-rarity rarity-${ring.rarity}">
-						${ring.rarity}
-					</div>
-				</div>
+                    <div class="ring-rarity rarity-${ring.rarity}">
+                        ${ring.rarity}
+                    </div>
+                </div>
 
             </div>
         `;
@@ -66,6 +75,5 @@ fetch("data/rings.json")
     {
         allRings = rings;
 
-        ringCount.textContent = `${allRings.length} Total Rings`;
         displayRings(allRings);
     });
