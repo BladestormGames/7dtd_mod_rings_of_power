@@ -4,6 +4,9 @@ const searchBox = document.getElementById("search");
 
 let allRings = [];
 
+let selectedRarity = "All";
+const rarityButtons = document.querySelectorAll(".rarity-button");
+
 // Draws the rings onto the page
 function displayRings(rings)
 {
@@ -41,39 +44,29 @@ function displayRings(rings)
     });
 }
 
-// Load the JSON
+// Load JSON
 fetch("data/rings.json")
     .then(response => response.json())
     .then(rings =>
     {
         allRings = rings;
-
         displayRings(allRings);
     });
 
 // Search
-searchBox.addEventListener("input", function()
+searchBox.addEventListener("input", filterRings);
+
+// Rarity Buttons
+rarityButtons.forEach(button =>
 {
-    const search = searchBox.value.toLowerCase();
-
-    const filtered = allRings.filter(ring =>
-	{
-		return (
-			ring.name.toLowerCase().includes(search) ||
-			ring.desc.toLowerCase().includes(search) ||
-			ring.rarity.toLowerCase().includes(search)
-		);
-	});
-
-    displayRings(filtered);
-});
-
-// Ring Count
-fetch("data/rings.json")
-    .then(response => response.json())
-    .then(rings =>
+    button.addEventListener("click", function()
     {
-        allRings = rings;
+        rarityButtons.forEach(b => b.classList.remove("active"));
 
-        displayRings(allRings);
+        this.classList.add("active");
+
+        selectedRarity = this.dataset.rarity;
+
+        filterRings();
     });
+});

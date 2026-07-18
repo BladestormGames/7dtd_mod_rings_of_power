@@ -49,6 +49,40 @@ h1
     margin-bottom: 20px;
 }
 
+#rarity-filters
+{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+
+    margin-bottom: 18px;
+}
+
+.rarity-button
+{
+    background: #222;
+    border: 2px solid #666;
+
+    padding: 8px 18px;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition: .15s;
+}
+
+.rarity-button:hover
+{
+    background: #303030;
+}
+
+.rarity-button.active
+{
+    color: black !important;
+}
+
 .ring
 {
     display: flex;
@@ -111,35 +145,59 @@ h1
     background:rgba(35,35,35,.85);
 }
 
-.ring-rarity
-{
-    margin-top: 8px;
-    font-size: 14px;
-    font-weight: bold;
-}
 .rarity-Common
 {
     color: #b8b8b8;
+    border-color: #b8b8b8;
+}
+
+.rarity-Common.active
+{
+    background: #b8b8b8;
 }
 
 .rarity-Uncommon
 {
     color: #5ec45e;
+    border-color: #5ec45e;
+}
+
+.rarity-Uncommon.active
+{
+    background: #5ec45e;
 }
 
 .rarity-Rare
 {
     color: #4aa3ff;
+    border-color: #4aa3ff;
+}
+
+.rarity-Rare.active
+{
+    background: #4aa3ff;
 }
 
 .rarity-Epic
 {
     color: #b06cff;
+    border-color: #b06cff;
+}
+
+.rarity-Epic.active
+{
+    background: #b06cff;
 }
 
 .rarity-Legendary
 {
     color: #ff9800;
+    border-color: #ff9800;
+}
+
+.rarity-Legendary.active
+{
+    background: #ff9800;
 }
 
 

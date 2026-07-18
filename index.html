@@ -13,12 +13,23 @@
     <div id="page">
 
         <h1>Rings of Power</h1>
+		
 		<div id="ring-count"></div>
+		
         <input
             type="text"
             id="search"
             placeholder="Search Rings...">
-
+			
+		<div id="rarity-filters">
+			<button class="rarity-button active" data-rarity="All">All</button>
+			<button class="rarity-button rarity-Common" data-rarity="Common">Common</button>
+			<button class="rarity-button rarity-Uncommon" data-rarity="Uncommon">Uncommon</button>
+			<button class="rarity-button rarity-Rare" data-rarity="Rare">Rare</button>
+			<!-- <button class="rarity-button rarity-Epic" data-rarity="Epic">Epic</button> -->
+			<button class="rarity-button rarity-Legendary" data-rarity="Legendary">Legendary</button>
+		</div>
+		
         <div id="ring-list">
 
         </div>
