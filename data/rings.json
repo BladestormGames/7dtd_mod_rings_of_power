@@ -574,8 +574,8 @@
         "desc": "+1 Loot Stage on kill, up to 30.\nLasts 12 Seconds.\nRefresh on Kill.",
         "icon": "iconItemROPGoldenGrid.png",
         "rarity": "Uncommon"
-    }
-	    {
+    },
+	{
         "name": "Ring of Wounding",
         "desc": "Melee and Archery hits have a 20% chance to apply Open Wounds. Open Wounds deals moderate damage over time, is not stackable, and lasts for 8 seconds."",
         "icon": "iconItemROPWounding.png",
