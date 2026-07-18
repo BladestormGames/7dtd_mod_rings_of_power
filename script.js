@@ -31,12 +31,9 @@ function displayRings(rings)
                 </div>
 
                 <div class="ring-info">
-                    <div class="ring-name">${ring.name}</div>
-                    <div class="ring-desc">${ring.desc}</div>
-
-                    <div class="ring-rarity rarity-${ring.rarity}">
-                        ${ring.rarity}
-                    </div>
+					<div class="ring-name">${ring.name}</div>
+					<div class="ring-rarity rarity-${ring.rarity}">${ring.rarity}</div>
+					<div class="ring-desc">${ring.desc}</div>
                 </div>
 
             </div>
