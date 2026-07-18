@@ -682,8 +682,8 @@
         "desc": "Melee and Archery hits apply Anguish Curse for 6 seconds.\nAnguish Curse consumes 2 Stamina per second.",
         "icon": "iconItemROPCursingAnguish.png",
         "rarity": "Rare"
-    }
-	    {
+    },
+	{
         "name": "Ring of Cursing Agony",
         "desc": "Melee and Archery hits apply Agony Curse for 6 seconds.\nAgony Curse deals damage when target is hit (Half for PVP).",
         "icon": "iconItemROPCursingAgony.png",
