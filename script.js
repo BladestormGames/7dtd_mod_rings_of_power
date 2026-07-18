@@ -10,7 +10,7 @@ fetch("data/rings.json")
                 <div class="ring">
 
                     <div class="ring-icon">
-                        <img src="images/${ring.icon}" alt="${ring.name}">
+                        <img src="images/rings/${ring.icon}" alt="${ring.name}">
                     </div>
 
                     <div class="ring-info">
