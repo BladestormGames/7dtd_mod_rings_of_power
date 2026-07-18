@@ -61,7 +61,9 @@ rarityButtons.forEach(button =>
 {
     button.addEventListener("click", function()
     {
-        rarityButtons.forEach(b => b.classList.remove("active"));
+        console.log("Clicked:", this.dataset.rarity);
+		
+		rarityButtons.forEach(b => b.classList.remove("active"));
 
         this.classList.add("active");
 
