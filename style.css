@@ -100,3 +100,34 @@ h1
 
     background:rgba(35,35,35,.85);
 }
+
+.ring-rarity
+{
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: bold;
+}
+.rarity-Common
+{
+    color: #b8b8b8;
+}
+
+.rarity-Uncommon
+{
+    color: #5ec45e;
+}
+
+.rarity-Rare
+{
+    color: #4aa3ff;
+}
+
+.rarity-Epic
+{
+    color: #b06cff;
+}
+
+.rarity-Legendary
+{
+    color: #ff9800;
+}

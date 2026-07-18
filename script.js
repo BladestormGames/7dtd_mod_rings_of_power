@@ -18,9 +18,13 @@ function displayRings(rings)
                 </div>
 
                 <div class="ring-info">
-                    <div class="ring-name">${ring.name}</div>
-                    <div class="ring-desc">${ring.desc}</div>
-                </div>
+					<div class="ring-name">${ring.name}</div>
+					<div class="ring-desc">${ring.desc}</div>
+
+					<div class="ring-rarity rarity-${ring.rarity}">
+						${ring.rarity}
+					</div>
+				</div>
 
             </div>
         `;
@@ -43,9 +47,13 @@ searchBox.addEventListener("input", function()
     const search = searchBox.value.toLowerCase();
 
     const filtered = allRings.filter(ring =>
-    {
-        return ring.name.toLowerCase().includes(search);
-    });
+	{
+		return (
+			ring.name.toLowerCase().includes(search) ||
+			ring.desc.toLowerCase().includes(search) ||
+			ring.rarity.toLowerCase().includes(search)
+		);
+	});
 
     displayRings(filtered);
 });

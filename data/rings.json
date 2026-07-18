@@ -2,16 +2,19 @@
     {
         "name": "Ring of Buckleloop",
         "desc": "+[5/6/7/8/9/10] Loot Stage",
-        "icon": "iconItemROPBuckleloop.png"
+        "icon": "iconItemROPBuckleloop.png",
+        "rarity": "Common"
     },
     {
         "name": "Ring of Safety",
         "desc": "+[3/3/4/4/5/5]% Damage Mitigation",
-        "icon": "iconItemROPSafety.png"
+        "icon": "iconItemROPSafety.png",
+        "rarity": "Rare"
     },
     {
         "name": "Ring of Zed",
         "desc": "+[10/11/12/13/14/15]% Damage",
-        "icon": "iconItemROPZed.png"
+        "icon": "iconItemROPZed.png",
+        "rarity": "Epic"
     }
 ]
