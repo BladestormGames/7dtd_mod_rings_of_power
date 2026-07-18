@@ -36,36 +36,6 @@
         "rarity": "Common"
     },
     {
-        "name": "Ring of Archery",
-        "desc": "Gain 1 Health on Archery Hit.",
-        "icon": "iconItemROPArchery.png",
-        "rarity": "Common"
-    },
-    {
-        "name": "Ring of Archery",
-        "desc": "+1 Additional Arrow",
-        "icon": "iconItemROPArchery.png",
-        "rarity": "Rare"
-    },
-    {
-        "name": "Ring of Archery",
-        "desc": "+[10/20/30/40/50/60]% Archery Damage",
-        "icon": "iconItemROPArchery.png",
-        "rarity": "Common"
-    },
-    {
-        "name": "Ring of Archery",
-        "desc": "+[10/20/30/40/50/60]% Archery Reload Speed",
-        "icon": "iconItemROPArchery.png",
-        "rarity": "Common"
-    },
-    {
-        "name": "Ring of Archery",
-        "desc": "+[30/40/50/60/70/80]% Arrow Stick Chance",
-        "icon": "iconItemROPArchery.png",
-        "rarity": "Common"
-    },
-    {
         "name": "Ring of Combat Mastery",
         "desc": "+[15/20/25/30/35/40]% Entity Damage with [Weapon Type]",
         "icon": "iconItemROPCombatMasteryAxes.png",
@@ -201,6 +171,36 @@
         "name": "Ring of Graverobber",
         "desc": "+5 Loot Bonus.\n-1 Treasure Radius.",
         "icon": "iconItemROPGraverobber.png",
+        "rarity": "Common"
+    },
+	{
+        "name": "Ring of Archery",
+        "desc": "Gain 1 Health on Archery Hit.",
+        "icon": "iconItemROPArchery.png",
+        "rarity": "Common"
+    },
+    {
+        "name": "Ring of Archery",
+        "desc": "+1 Additional Arrow",
+        "icon": "iconItemROPArchery.png",
+        "rarity": "Rare"
+    },
+    {
+        "name": "Ring of Archery",
+        "desc": "+[10/20/30/40/50/60]% Archery Damage",
+        "icon": "iconItemROPArchery.png",
+        "rarity": "Common"
+    },
+    {
+        "name": "Ring of Archery",
+        "desc": "+[10/20/30/40/50/60]% Archery Reload Speed",
+        "icon": "iconItemROPArchery.png",
+        "rarity": "Common"
+    },
+    {
+        "name": "Ring of Archery",
+        "desc": "+[30/40/50/60/70/80]% Arrow Stick Chance",
+        "icon": "iconItemROPArchery.png",
         "rarity": "Common"
     },
     {

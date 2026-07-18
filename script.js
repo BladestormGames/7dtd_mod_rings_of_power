@@ -1,5 +1,6 @@
 const ringList = document.getElementById("ring-list");
 const searchBox = document.getElementById("search");
+const ringCount = document.getElementById("ring-count");
 
 let allRings = [];
 
@@ -57,3 +58,14 @@ searchBox.addEventListener("input", function()
 
     displayRings(filtered);
 });
+
+// Ring Count
+fetch("data/rings.json")
+    .then(response => response.json())
+    .then(rings =>
+    {
+        allRings = rings;
+
+        ringCount.textContent = `${allRings.length} Total Rings`;
+        displayRings(allRings);
+    });

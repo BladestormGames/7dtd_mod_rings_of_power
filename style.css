@@ -40,6 +40,15 @@ h1
 	border:3px solid #777;
 }
 
+#ring-count
+{
+    text-align: center;
+    color: #b5b5b5;
+    font-size: 15px;
+    margin-top: -10px;
+    margin-bottom: 20px;
+}
+
 .ring
 {
     display: flex;
@@ -132,3 +141,5 @@ h1
 {
     color: #ff9800;
 }
+
+
