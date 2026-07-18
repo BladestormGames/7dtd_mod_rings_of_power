@@ -802,8 +802,8 @@
         "desc": "Every Agility attribute point grants +2% Archery Damage.",
         "icon": "iconItemROPAgility.png",
         "rarity": "Uncommon"
-    }
-	    {
+    },
+	{
         "name": "Ring of Intellect",
         "desc": "Every Intellect attribute point grants +5% Robotics Damage.",
         "icon": "iconItemROPIntellect.png",
