@@ -1,17 +1,26 @@
 const ringList = document.getElementById("ring-list");
 
-console.log("Script loaded");
-
 fetch("data/rings.json")
     .then(response => response.json())
     .then(rings => {
 
-        console.log("JSON loaded");
-        console.log(rings);
+        rings.forEach(ring => {
 
-        ringList.innerHTML = "<h2>HELLO WORLD</h2>";
+            ringList.innerHTML += `
+                <div class="ring">
 
-    })
-    .catch(error => {
-        console.error(error);
+                    <div class="ring-icon">
+                        <img src="images/${ring.icon}" alt="${ring.name}">
+                    </div>
+
+                    <div class="ring-info">
+                        <div class="ring-name">${ring.name}</div>
+                        <div class="ring-desc">${ring.desc}</div>
+                    </div>
+
+                </div>
+            `;
+
+        });
+
     });
