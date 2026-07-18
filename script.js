@@ -14,7 +14,7 @@ function displayRings(rings)
 
     if (rings.length === allRings.length)
     {
-        ringCount.textContent = `${allRings.length} Unique Rings`;
+        ringCount.textContent = `${allRings.length} Total Rings`;
     }
     else
     {
