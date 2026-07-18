@@ -498,19 +498,19 @@
         "rarity": "Rare"
     },
     {
-        "name": "Ring of Battle Damage",
+        "name": "Ring of Battle (Damage)",
         "desc": "Killing an enemy grants +10% Entity Damage for 12 seconds.\nStacks 4 times.",
         "icon": "iconItemROPBattle.png",
         "rarity": "Uncommon"
     },
     {
-        "name": "Ring of Battle Attack Speed",
+        "name": "Ring of Battle (Attack Speed)",
         "desc": "Killing an enemy grants +4% Attack Speed for 12 seconds.\nStacks 4 times.",
         "icon": "iconItemROPBattle.png",
         "rarity": "Uncommon"
     },
     {
-        "name": "Ring of Battle Protection",
+        "name": "Ring of Battle (Protection)",
         "desc": "Killing an enemy grants +1% Damage Mitigation for 12 seconds.\nStacks 4 times.",
         "icon": "iconItemROPBattle.png",
         "rarity": "Uncommon"
