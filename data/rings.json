@@ -181,7 +181,7 @@
     },
     {
         "name": "Ring of Archery",
-        "desc": "+1 Additional Arrow",
+        "desc": "+1 Additional Arrow with Bows",
         "icon": "iconItemROPArchery.png",
         "rarity": "Rare"
     },
@@ -721,13 +721,13 @@
     },
     {
         "name": "Ring of Twinshot",
-        "desc": "+1 Arrows drawn with Bows.\n-[40,38,36,34,32,30]% Entity Damage with Bows. +25% Spread.",
+        "desc": "+1 Additional Arrow with Bows.\n-[40,38,36,34,32,30]% Entity Damage with Bows. +25% Spread.",
         "icon": "iconItemROPTwinshot.png",
         "rarity": "Uncommon"
     },
     {
         "name": "Ring of Barrage",
-        "desc": "+1 Arrows drawn with Bows.\n-[50,46,42,38,34,30]% Bow Attack Speed. +25% Spread.",
+        "desc": "+1 Additional Arrow with Bows.\n-[50,46,42,38,34,30]% Bow Attack Speed. +25% Spread.",
         "icon": "iconItemROPBarrage.png",
         "rarity": "Rare"
     },
@@ -847,7 +847,7 @@
     },
     {
         "name": "Ring of Feather Fate",
-        "desc": "+[10,12,14,16,18,20]% Movement Speed.\nGain +2% Movement Speed every 10 Player Levels upto Player Level 100.",
+        "desc": "+[10,12,14,16,18,20]% Movement Speed.\nGain +2% Movement Speed every 10 Player Levels up to Player Level 100.",
         "icon": "iconItemROPFeatherFate.png",
         "rarity": "Legendary"
     },
