@@ -145,6 +145,13 @@ h1
     background:rgba(35,35,35,.85);
 }
 
+.ring-rarity
+{
+    margin-top: 14px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
 .rarity-Common
 {
     color: #b8b8b8;
