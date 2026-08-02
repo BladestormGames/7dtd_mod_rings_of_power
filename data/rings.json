@@ -708,9 +708,9 @@
         "rarity": "Rare"
     },
 	{
-        "name": "Ring of Night March",
+        "name": "Ring of Templar's Night March",
         "desc": "While at Night and wielding a Club or Sledgehammer, you and allies gain:\n  +15% Movement Speed\n  +40 Stamina\n  +10% Attack Speed\n  +10% Entity Damage",
-        "icon": "iconItemROPTemplarsNightMarch.png",
+        "icon": "itemIconROPTemplarsNightMarch.png",
         "rarity": "Rare"
     },
     {
