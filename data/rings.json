@@ -438,12 +438,6 @@
         "rarity": "Uncommon"
     },
     {
-        "name": "Ring of Treasures",
-        "desc": "+3 Loot Stage per Treasure Hunter perk point.",
-        "icon": "iconItemROPTreasures.png",
-        "rarity": "Uncommon"
-    },
-    {
         "name": "Ring of Hawk Hunter",
         "desc": "+4% Archery Damage, +4% Archery Attack Speed, and +1% Movement Speed per Deadeye perk point.",
         "icon": "iconItemROPHawkHunter.png",
@@ -565,7 +559,7 @@
     },
     {
         "name": "Ring of Treasure Bounty",
-        "desc": "+5 Loot Stage on kill. Non-Stackable.\nLasts 12 Seconds.\nRefresh on Kill.",
+        "desc": "+20 Loot Stage on kill. Non-Stackable.\nLasts 12 Seconds.\nRefresh on Kill.",
         "icon": "iconItemROPTreasureBounty.png",
         "rarity": "Uncommon"
     },
@@ -577,7 +571,7 @@
     },
 	{
         "name": "Ring of Wounding",
-        "desc": "Melee and Archery hits have a 20% chance to apply Open Wounds. Open Wounds deals moderate damage over time, is not stackable, and lasts for 8 seconds.",
+        "desc": "Melee and Archery hits have a 30% chance to apply Open Wounds. Open Wounds deals moderate damage over time, is not stackable, and lasts for 8 seconds.",
         "icon": "iconItemROPWounding.png",
         "rarity": "Uncommon"
     },
