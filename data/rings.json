@@ -145,7 +145,7 @@
     },
     {
         "name": "Ring of Crushing",
-        "desc": "+[350/400/450/500/550/600]% Block Damage",
+        "desc": "+[350/400/450/500/550/600]% Block Damage with Brawlering",
         "icon": "iconItemROPCrushing.png",
         "rarity": "Rare"
     },
@@ -277,7 +277,7 @@
     },
     {
         "name": "Ring of Hawk Hunter",
-        "desc": "+4% Archery Damage, +4% Archery Attack Speed, and +1% Movement Speed per Deadeye perk point.",
+        "desc": "+4% Archery Damage, +4% Archery Attack Speed, and +2% Movement Speed per Deadeye perk point.",
         "icon": "iconItemROPHawkHunter.png",
         "rarity": "Rare"
     },
@@ -647,6 +647,30 @@
         "icon": "iconItemROPShadowStitch.png",
         "rarity": "Uncommon"
     },
+	{
+        "name": "Ring of Sin Jierra",
+        "desc": "Killing an enemy grants 20% Attack Speed for 12 seconds.",
+        "icon": "iconItemROPSinJierra.png",
+        "rarity": "Uncommon"
+    },
+	{
+        "name": "Ring of Pinning",
+        "desc": "Melee and Archery hits apply Pinning debuff.\nPinning reduces Movement and Attack Speed by 10%.\nStacks up to 5 times.",
+        "icon": "iconItemROPPinning.png",
+        "rarity": "Uncommon"
+    },
+	{
+        "name": "Ring of Blood Drinker",
+        "desc": "Consumes bleeding effects and grants Blood Rush:\nBlood Rush increases Attack Speed and Movement Speed by 25% for 6 seconds.\n20 seconds Cooldown.",
+        "icon": "itemIconROPBloodDrinker.png",
+        "rarity": "Uncommon"
+    },
+	{
+        "name": "Ring of Flame Eater",
+        "desc": "Consumes burning effects and grants Flame Rush:\nFlame Rush increases Attack Speed and Movement Speed by 25% for 6 seconds.\n20 seconds Cooldown.",
+        "icon": "itemIconROPFlameDrinker.png",
+        "rarity": "Uncommon"
+    },
     {
         "name": "Ring of Grand Templar",
         "desc": "While wielding a Club or Sledgehammer, you and allies gain:\n+40 Health and Stamina\n+25% Entity Damage\n+10% Attack and Movement Speed",
@@ -675,6 +699,24 @@
         "name": "Ring of Templar's Virtue",
         "desc": "While wielding a Club or Sledgehammer, you and allies gain:\n+1 All Attributes",
         "icon": "iconItemROPTemplarsVirtue.png",
+        "rarity": "Rare"
+    },
+	{
+        "name": "Ring of Templar's Prayer",
+        "desc": "While wielding a Club or Sledgehammer, you and allies gain:\nRecover 1 to 3 Health and Stamina every 3 seconds.",
+        "icon": "iconItemROPTemplarsPrayer.png",
+        "rarity": "Rare"
+    },
+	{
+        "name": "Ring of Templar's Authority",
+        "desc": "While wielding a Club or Sledgehammer, you and allies gain:\n  +75 Health\n  +25% Size\n  +10% Movement Speed",
+        "icon": "iconItemROPTemplarsAuthority.png",
+        "rarity": "Rare"
+    },
+	{
+        "name": "Ring of Night March",
+        "desc": "While at Night and wielding a Club or Sledgehammer, you and allies gain:\n  +15% Movement Speed\n  +40 Stamina\n  +10% Attack Speed\n  +10% Entity Damage",
+        "icon": "iconItemROPTemplarsNightMarch.png",
         "rarity": "Rare"
     },
     {
@@ -757,7 +799,7 @@
     },
     {
         "name": "Ring of Training",
-        "desc": "+[10,11,12,13,14,15]% EXP.\n-40% Entity Damage.",
+        "desc": "+[10,11,12,13,14,15]% EXP.\n-[30/29/28/27/26/25]% Entity Damage.",
         "icon": "iconItemROPTraining.png",
         "rarity": "Uncommon"
     },
@@ -844,6 +886,54 @@
         "desc": "+[15/20/25/30/35/40]% Entity Damage with [Weapon Type]\n+[3/6/9/12/15/18]% Attack Speed with [Weapon Type]",
         "icon": "iconItemROPCombatExpertise.png",
         "rarity": "Uncommon"
+    },
+	{
+        "name": "Ring of Mecha Command",
+        "desc": "+1 Robotic Summon Limit per 5 Intellect.",
+        "icon": "iconItemROPMechaCommand.png",
+        "rarity": "Rare"
+    },
+	{
+        "name": "Ring of Mecha Munitions",
+        "desc": "+[40/65/90/115/140/165] Robotic Turret Ammo Capacity",
+        "icon": "iconItemROPMechaMunitions.png",
+        "rarity": "Rare"
+    },
+	{
+        "name": "Ring of Mecha Beacon",
+        "desc": "+[2/4/6/8/10/12] Robotic Activation Range",
+        "icon": "iconItemROPMechaBeacon.png",
+        "rarity": "Rare"
+    },
+	{
+        "name": "Ring of Mecha Escavator",
+        "desc": "While holding a Robotic Sledge:\n  100% chance to one-shot Ore\n  +15% Ore Harvest Quantity\n  -75% Attack Speed",
+        "icon": "iconItemROPMechaEscavator.png",
+        "rarity": "Rare"
+    },
+	{
+        "name": "Ring of Mecha Gladiator",
+        "desc": "While holding a Robotic Sledge:\n+75% Robotic Sledge Damage\n+50% Robotic Sledge Attack Speed\n+1 Robotic Sledge Attack Range",
+        "icon": "iconItemROPMechaGladiator.png",
+        "rarity": "Rare"
+    },
+	{
+        "name": "Ring of Mecha Warrior",
+        "desc": "Each point in Robotic Inventor grants:\n  +3% Experience Gained\n  +3% Entity Damage\n  +3% Attack Speed",
+        "icon": "iconItemROPMechaWarrior.png",
+        "rarity": "Rare"
+    },
+	{
+        "name": "Ring of Mecha Badge",
+        "desc": "Each point in Robotic Inventor grants:\n  +10% Robotic Sledge Damage\n  +10 Robotic Turret Ammo Capacity\n  +3% Robotic Attack Speed",
+        "icon": "iconItemROPMechaBadge.png",
+        "rarity": "Rare"
+    },
+	{
+        "name": "Ring of Mecha Overdrive",
+        "desc": "Activate on Crouch:\n  +50% Robotic Attack Speed for 6 seconds.\n  20 seconds cooldown.",
+        "icon": "iconItemROPMechaOverdrive.png",
+        "rarity": "Rare"
     },
     {
         "name": "Ring of Feather Fate",
