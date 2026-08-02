@@ -64,7 +64,9 @@ function filterRings()
 }
 
 // Load JSON
-fetch("data/rings.json")
+fetch("data/rings.json", {
+    cache: "no-store"
+})
     .then(response => response.json())
     .then(rings =>
     {
