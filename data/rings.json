@@ -964,11 +964,5 @@
         "desc": "Gain bonuses based on your Attributes:\n  +2% Attack Speed per Perception\n  +4% Entity Damage per Strength\n  +2% Movement Speed per Agility\n  +0.5% Damage Mitigation per Fortitude\n  +1% Experience gained per Intellect.",
         "icon": "iconItemROPMastery.png",
         "rarity": "Legendary"
-    },
-	{
-        "name": "Ring of WEBSITE TEST",
-        "desc": "Wbsite Test\nWebsite Test",
-        "icon": "WEBSITE.png",
-        "rarity": "Legendary"
     }
 ]
