@@ -656,13 +656,13 @@
 	{
         "name": "Ring of Blood Drinker",
         "desc": "Consumes bleeding effects and grants Blood Rush:\nBlood Rush increases Attack Speed and Movement Speed by 25% for 6 seconds.\n20 seconds Cooldown.",
-        "icon": "itemIconROPBloodDrinker.png",
+        "icon": "iconItemROPBloodDrinker.png",
         "rarity": "Uncommon"
     },
 	{
         "name": "Ring of Flame Eater",
         "desc": "Consumes burning effects and grants Flame Rush:\nFlame Rush increases Attack Speed and Movement Speed by 25% for 6 seconds.\n20 seconds Cooldown.",
-        "icon": "itemIconROPFlameDrinker.png",
+        "icon": "iconItemROPFlameDrinker.png",
         "rarity": "Uncommon"
     },
     {
@@ -710,7 +710,7 @@
 	{
         "name": "Ring of Templar's Night March",
         "desc": "While at Night and wielding a Club or Sledgehammer, you and allies gain:\n  +15% Movement Speed\n  +40 Stamina\n  +10% Attack Speed\n  +10% Entity Damage",
-        "icon": "itemIconROPTemplarsNightMarch.png",
+        "icon": "iconItemROPTemplarsNightMarch.png",
         "rarity": "Rare"
     },
     {
