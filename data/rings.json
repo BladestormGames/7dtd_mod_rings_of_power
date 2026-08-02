@@ -36,13 +36,13 @@
         "rarity": "Common"
     },
     {
-        "name": "Ring of Combat Mastery",
+        "name": "Ring of Combat Mastery (Entity Damage)",
         "desc": "+[15/20/25/30/35/40]% Entity Damage with [Weapon Type]",
         "icon": "iconItemROPCombatMasteryAxes.png",
         "rarity": "Common"
     },
     {
-        "name": "Ring of Combat Mastery",
+        "name": "Ring of Combat Mastery (Attack Speed)",
         "desc": "+[3/6/9/12/15/18]% Attack Speed with [Weapon Type]",
         "icon": "iconItemROPCombatMasteryAxes.png",
         "rarity": "Common"
@@ -103,7 +103,7 @@
     },
     {
         "name": "Ring of Striking",
-        "desc": "+[8/9/10/11/12/13]% Melee Attack Speed",
+        "desc": "+[10/11/12/13/14/15]% Melee Attack Speed",
         "icon": "iconItemROPStriking.png",
         "rarity": "Common"
     },
@@ -139,7 +139,7 @@
     },
     {
         "name": "Ring of Learning",
-        "desc": "+[5/6/7/8/9/10]% Experience Gained",
+        "desc": "+[5/7/9/11/13/15]% Experience Gained",
         "icon": "iconItemROPLearning.png",
         "rarity": "Common"
     },
@@ -271,7 +271,7 @@
     },
     {
         "name": "Ring of Treasures",
-        "desc": "+3 Loot Stage per Treasure Hunter perk point.",
+        "desc": "+5 Loot Stage per Treasure Hunter perk point.",
         "icon": "iconItemROPTreasures.png",
         "rarity": "Rare"
     },
@@ -301,7 +301,7 @@
     },
     {
         "name": "Ring of Spear Dancing",
-        "desc": "+100% Spear Attack Speed.\n-50% Spear Entity Damage.",
+        "desc": "+100% Spear Attack Speed.\n-40% Spear Entity Damage.",
         "icon": "iconItemROPSpearDancing.png",
         "rarity": "Uncommon"
     },
@@ -319,7 +319,7 @@
     },
     {
         "name": "Ring of Lethal Strikes",
-        "desc": "+10% Damage for every 10% Missing Health.",
+        "desc": "+10% Entity Damage per 10% of your Missing Health.",
         "icon": "iconItemROPLethalStrikes.png",
         "rarity": "Uncommon"
     },
@@ -462,12 +462,6 @@
         "rarity": "Uncommon"
     },
     {
-        "name": "Ring of Jolting",
-        "desc": "Movement Speed effects from Shock are inverted.\n+15% Attack Speed.",
-        "icon": "iconItemROPJolting.png",
-        "rarity": "Rare"
-    },
-    {
         "name": "Ring of Panic",
         "desc": "Gain 5% Movement Speed for every 10% Health missing.",
         "icon": "iconItemROPPanic.png",
@@ -475,21 +469,15 @@
     },
     {
         "name": "Ring of Mutation",
-        "desc": "Every 1% Infection grants +1% Attack Speed, up to 25%.",
+        "desc": "Every 1% Infection grants +2% Attack Speed, up to 50%.",
         "icon": "iconItemROPMutation.png",
-        "rarity": "Uncommon"
+        "rarity": "Rare"
     },
     {
         "name": "Ring of Vulnerability",
         "desc": "Hiting an enemy applies them with Vulnerability for 6 seconds.\nVulnerability reduces Damage Mitigation by 10%.",
         "icon": "iconItemROPVulnerability.png",
         "rarity": "Uncommon"
-    },
-    {
-        "name": "Ring of Stealth",
-        "desc": "Activates Full Stealth when you crouch, becoming completely hidden from enemies (Except players).\n  4 seconds Duration\n  12 seconds Cooldown",
-        "icon": "iconItemROPStealth.png",
-        "rarity": "Rare"
     },
     {
         "name": "Ring of Battle (Damage)",
@@ -511,7 +499,7 @@
     },
     {
         "name": "Ring of Replenishment",
-        "desc": "Restores 5 Stamina and 1 Health every 10 seconds.",
+        "desc": "Restores 10 Stamina and 2 Health every 6 seconds.",
         "icon": "iconItemROPReplenishment.png",
         "rarity": "Uncommon"
     },
@@ -523,7 +511,7 @@
     },
     {
         "name": "Ring of Bounty Hunting",
-        "desc": "Occasionally gain a Bounty. Bounty kills grant Dukes (Casino Coins).",
+        "desc": "Occasionally gain a Bounty.\nBounty kills reward you with Dukes (Casino Coins).",
         "icon": "iconItemROPBountyHunting.png",
         "rarity": "Uncommon"
     },
@@ -595,13 +583,13 @@
     },
     {
         "name": "Ring of Time Crunch",
-        "desc": "Activate on Crouch: +40% Attack Speed and +20% Movement Speed for 4 seconds.\n20 seconds Cooldown.",
+        "desc": "Activate on Crouch:\n+40% Attack Speed and +20% Movement Speed for 4 seconds.\n20 seconds Cooldown.",
         "icon": "iconItemROPTimeCrunch.png",
         "rarity": "Uncommon"
     },
     {
         "name": "Ring of Fragile Fragment",
-        "desc": "When hit, +8% Damage Mitigation for 8 seconds.\n30 seconds Cooldown.",
+        "desc": "When hit, +8% Damage Mitigation for 12 seconds.\n30 seconds Cooldown.",
         "icon": "iconItemROPFragileFragment.png",
         "rarity": "Uncommon"
     },
@@ -928,6 +916,18 @@
         "desc": "Activate on Crouch:\n  +50% Robotic Attack Speed for 6 seconds.\n  20 seconds cooldown.",
         "icon": "iconItemROPMechaOverdrive.png",
         "rarity": "Rare"
+    },
+	{
+        "name": "Ring of Jolting",
+        "desc": "You are Shocked.\nMovement Speed effects from Shock are inverted.\n+15% Attack Speed.",
+        "icon": "iconItemROPJolting.png",
+        "rarity": "Legendary"
+    },
+	{
+        "name": "Ring of Stealth",
+        "desc": "Activates Full Stealth when you crouch, becoming completely hidden from enemies (Except players).\n  4 seconds Duration\n  12 seconds Cooldown",
+        "icon": "iconItemROPStealth.png",
+        "rarity": "Legendary"
     },
     {
         "name": "Ring of Feather Fate",
