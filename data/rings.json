@@ -965,4 +965,10 @@
         "icon": "iconItemROPMastery.png",
         "rarity": "Legendary"
     }
+	{
+        "name": "Ring of WEBSITE TEST",
+        "desc": "Wbsite Test\nWebsite Test",
+        "icon": "WEBSITE.png",
+        "rarity": "Legendary"
+    }
 ]
